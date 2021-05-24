@@ -22,8 +22,18 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+## Custom Gem
+gem 'devise'
+gem 'simple_form'
+gem 'jquery-rails'
+gem 'actiontext', require: 'action_text'
+gem 'faker'
+gem 'will_paginate'
+gem 'friendly_id'
+##
+
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
