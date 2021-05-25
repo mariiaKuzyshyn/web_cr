@@ -30,10 +30,11 @@
 </div>
 </div>
 
+<div class="container">
 <h2>Comments</h2>
 <%= render @post.comments %>
+</div>
 
 <% if current_user%>
-<h4>Leave a comment</h4>
 <%= render 'comments/form' %>
 <% end %>
